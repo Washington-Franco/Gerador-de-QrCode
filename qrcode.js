@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Se o campo estiver vazio, remove a classe "active" do contêiner e restaura o texto do botão
         if (!qrCodeInput.value) {
             container.classList.remove("active");
-            qrCodeBtn.innerText = "Gerar QR code ";
+            qrCodeBtn.innerText = "Gerar QR code";
         }
     });
 });
