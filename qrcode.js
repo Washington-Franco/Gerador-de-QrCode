@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Verifica se o campo está vazio
         if (!qrCodeInputValue) return;
 
-        // Altera o texto do botão para indicar que o QR Code está sendo gerado
+        // Altera o texto do botão para indicar que o QR Code está sendo gerado 
         qrCodeBtn.innerText = "Gerando código...";
 
         // Gera o código QR com base no valor inserido no campo de entrada
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Se o campo estiver vazio, remove a classe "active" do contêiner e restaura o texto do botão
         if (!qrCodeInput.value) {
             container.classList.remove("active");
-            qrCodeBtn.innerText = "Gerar QR code";
+            qrCodeBtn.innerText = "Gerar QR code ";
         }
     });
 });
